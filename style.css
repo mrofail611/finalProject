@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+ margin: 0 ;
+ padding: 0;
+ background-color: aliceblue;
+}
+
+#banner {
+  background-color: #9a9da0;
+  color: #fff;
+}
+
+main {
+  padding: 20px;
+}
+
+form{
+  margin-left: 2%;
+  margin-left: 30%;
+}
+
+.form-container {
+  margin: 20px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+  margin-bottom: 5px;
+}
+
+img {
+  margin-left: 30%;
+  width: 40%;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 300px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+
+button {
+  padding: 8px 15px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+  margin-right: 10px;
+}
+
+
+button[type="button"] {
+  background-color: #f44336;
+}
+
+/* Add opacity on button hover */
+button:hover {
+  opacity: 0.8;
+}
