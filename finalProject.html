@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WEB- 115 Final Project</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="banner">
+    <img src="images/Magda Rofail (6).png" alt="plates with some blueberries">
+  </div><br><br>
+
+  <form id="mealPlanForm">
+    <h3>Meal Planner</h3>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" required><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" required><br>
+
+    <label for="goal">Goal for the week:</label>
+    <textarea id="goal" rows="4" cols="30"></textarea>
+
+    <h3>Meal plan for the week</h3>
+    <label for="breakfast">Breakfast:</label>
+    <input type="text" id="breakfast"><br>
+
+    <label for="snack1">Snack 1:</label>
+    <input type="text" id="snack1"><br>
+
+    <label for="lunch">Lunch:</label>
+    <input type="text" id="lunch"><br>
+
+    <label for="snack2">Snack 2:</label>
+    <input type="text" id="snack2"><br>
+
+    <label for="dinner">Dinner:</label>
+    <input type="text" id="dinner"><br><br>
+
+    <button onclick="generateMealPlan()">Generate Meal Plan</button>
+    <button type="button" onclick="clearForm()">Clear Planner</button>
+    <button type="button" onclick="printPlanner()">Print/Download Planner</button>
+
+   </form>
+   <script src="projectJS.js"></script>
+  
+</body>
+</html>
