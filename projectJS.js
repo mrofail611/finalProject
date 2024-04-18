@@ -16,7 +16,38 @@ function generateMealPlan() {
   }
 
 
-  
+  // Generate new page content
+  let newPageContent = `
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Meal Plan for ${name}</title>
+      <style>
+        body { font-family: Arial, sans-serif; }
+        h1 { color: #333; }
+        p { margin-bottom: 10px; }
+      </style>
+    </head>
+    <body>
+      <h1>Meal Plan for ${name}</h1>
+      <p><strong>Email:</strong> ${email}</p>
+      <p><strong>Goal for the Week:</strong> ${goal}</p>
+      <h2>Weekly Meal Plan</h2>
+      <p><strong>Monday:</strong> Breakfast - ${breakfast}, Snack 1 - ${snack1}, Lunch - ${lunch}, Snack 2 - ${snack2}, Dinner - ${dinner}</p>
+      <p><strong>Tuesday:</strong> Breakfast - ${breakfast}, Snack 1  - ${snack1}, Lunch - ${lunch}, Snack 2  - ${snack2}, Dinner - ${dinner}</p>
+      <p><strong>Wednesday:</strong> Breakfast - ${breakfast}, Snack 1  - ${snack1}, Lunch - ${lunch}, Snack 2  - ${snack2}, Dinner - ${dinner}</p>
+      <p><strong>Thuresday:</strong> Breakfast - ${breakfast}, Snack 1  - ${snack1}, Lunch - ${lunch},Snack 2  - ${snack2}, Dinner - ${dinner}</p>
+      <p><strong>Friday:</strong> Breakfast - ${breakfast}, Snack 1  - ${snack1}, Lunch - ${lunch}, Snack 2  - ${snack2}, Dinner - ${dinner}</p>
+      <p><strong>Saturday:</strong> Breakfast - ${breakfast}, Snack 1  - ${snack1}, Lunch - ${lunch}, Snack 2  - ${snack2}, Dinner - ${dinner}</p>
+      <p><strong>Sunday:</strong> Breakfast - ${breakfast}, Snack 1  - ${snack1}, Lunch - ${lunch}, Snack 2  - ${snack2}, Dinner - ${dinner}</p>
+    
+    </body>
+    </html>
+  `;
+
+
 
 
   // Open new window with generated content
@@ -37,6 +68,18 @@ function isValidEmail(email) {
 function printPlanner(){
   window.print();
 }
+  
+  
+
+
+
+
+
+  
+
+
+
+
   
   
 
